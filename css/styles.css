@@ -1,7 +1,11 @@
 @import "reset.css";
 @import "veriable.css";
-@import "status-bars.css";
-@import "log-in.css";
+
+/* Componets */
+@import "components/status-bars.css";
+
+/* Screens */
+@import "screens/log-in.css";
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
