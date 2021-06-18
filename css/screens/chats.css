@@ -9,6 +9,7 @@
   box-sizing: border-box;
   top: 0;
   background-color: #abc1d1;
+  z-index: 1;
 }
 
 #chat-screen .status-bar {
@@ -17,5 +18,37 @@
 }
 
 .main-chats {
-  margin-top: 150px;
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chat__timestop {
+  color: white;
+  background-color: #92a4b2;
+  padding: 8px 0;
+  font-size: 14px;
+  border-radius: 25px;
+  width: 170px;
+  opacity: 0.8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.message-row {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.message-row img {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+}
+
+.message-row__content {
+  margin-left: 10px;
 }
