@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Find - Kokoa Clone</title>
+    <title>More - Kokoa Clone</title>
 </head>
 <body>
     <div class="status-bar">
@@ -24,63 +24,79 @@
     </div>
 
     <header class="screen-header">
-        <h1 class="screen-header__title">Find</h1>
+        <h1 class="screen-header__title">More</h1>
         <div class="screen-header__icons">
             <span><i class="fas fa-search fa-lg"></i></span> 
+            <span><i class="fas fa-music fa-lg"></i></span>
             <span><i class="fas fa-cog fa-lg"></i></span>
             <span class="screen-header__dot reddot"> </span>
         </div>
     </header>
 
 
-    <main class="main__screen">
-        <div class="icon-row">
-            <div class="icon-row__icon">
-                <i class="fas fa-qrcode"></i>
-                <span>QR Code</span>
-            </div>
-            <div class="icon-row__icon">
-                <i class="far fa-address-book"></i>
-                <span>Add by Contacts</span>
-            </div>
-            <div class="icon-row__icon">
-                <i class="fas fa-fingerprint"></i>
-                <span>Add by ID</span>
-            </div>
-            <div class="icon-row__icon">
-                <i class="far fa-envelope"></i>
-                <span>Invite</span>
-            </div>
-        </div>
-        <div class="recomended-friends">
-            <h6 class="recmended-friends__title">Recomended Friends.</h6>
-            <span>You have no recomended friends.</span>
-        </div>
-        <div class="open-chat">
-            <div class="open-chat__header">
-                <h4 class="open-chat__title">Open Chat</h4>
-                <span>
-                    Go to Openchat Home <i class="fas fa-chevron-right fa-xs"></i>
-                </span>
-               
-            </div>
-        </div>
-        <div class="open-post">
-            <div class="open-post__column">
-                <h5 class="open-post__title">#BTS</h5>
-                <H6 class="open-post__hashtag">#bts#army#friends</H6>
-                <div class="open-post__members">
-                    <img src="file:///C:/Users/Once/coding/kokoa-clone-2021/screenshot/kompany.jpeg" />
-                    <span class="open-post__member-count">802 members</span>
-                    <div class="divider"></div>
-                    <span class="open-post__member-status">Active</span>
+    <main class="main__screen more-screen">
+        <div class="user-component">
+            <div class="user-component__column">
+                <img
+                    src="screenshot/kompany.jpeg"
+                    class="user-component__avatar user-component__avatar--xl"
+                />
+                <div class="user-component__text">
+                    <h4 class="user-component__title">Kompany</h4>
+                    <h6 class="user-component__subtitle">
+                        CTID
+                        <span class="user-component__pop">!</span>
+                    </h6>
                 </div>
             </div>
-            <div class="open-post__column">
-                <div class="open-post__photo">
-                    <img src="file:///C:/Users/Once/coding/kokoa-clone-2021/screenshot/kompany.jpeg" />
-                    <div class="open-post__heart-count">
-                        <i class="fas fa-heart fa-xs"></i> <span>326</span></div>
+            <div class="user-component__column">
+                <i class="far fa-comment-alt fa-2x"></i>
+            </div>
+        </div>
+        <div class="icon-row">
+            <div class="icon-row__icon">
+                <i class="far fa-calendar"></i>
+                <span>Calander</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fas fa-briefcase"></i>
+                <span>Talk Drive</span>
+                <span class="icon-row__icon-dot reddot"> </span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="far fa-smile-beam"></i>
+                <span>Emoticons</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fas fa-paint-roller"></i>
+                <span>Themes</span>
+            </div>
+        </div>
+        <div class="icon-row">
+            <div class="icon-row__icon">
+                <i class="fas fa-file-invoice-dollar"></i>
+                <span>Account</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="far fa-comments"></i>
+                <span>Openchat</span>
+            </div>
+        </div>
+        <div class="more-suggestions">
+            <h4 class="more-suggestions__title">Suggestions</h4>
+            <div class="more-suggestions__icons">
+                <div class="more-suggestions__icon">
+                    <div class="more-suggestions__icon-image">
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <span class="more-suggestions__icon-text">Kokoa Story</span>
+                </div>
+                <div class="more-suggestions__icon">
+                    <div class="more-suggestions__icon-image">
+                        <i class="fas fa-cookie"></i>
+                    </div>
+                    <span class="more-suggestions__icon-text">Cookie Friends</span>
+    
                 </div>
             </div>
         </div>
